@@ -12,31 +12,39 @@ export interface Game {
     ratings: Array<Rating>;
     screenshots: Array<Screenshots>;
     trailers: Array<Trailer>;
-}
-export interface APIResponse<T> {
-    results: Array<T>;
-}
-interface Genre {
+  }
+  
+  export interface APIResponse<T> {
+      results: Array<T>;
+  }
+  
+  interface Genre {
     name: string;
-}
-interface ParentPlatform {
-    Platform: {
-        name: string;
+  }
+  
+  interface ParentPlatform {
+    platform: {
+      name: string;
+      slug: string
     };
-}
-interface Publishers {
-    name: string;    
-}
-interface Rating {
-    id:number;
+  }
+  
+  interface Publishers {
+    name: string;
+  }
+  
+  interface Rating {
+    id: number;
     count: number;
     title: string;
-}
-interface Screenshots {
+  }
+  
+  interface Screenshots {
     image: string;
-}
-interface Trailer {
+  }
+  
+  interface Trailer {
     data: {
-        max: string;
+      max: string;
     };
-}
+  }

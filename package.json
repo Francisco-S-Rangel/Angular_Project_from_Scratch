@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
     "angular-gauge": "^4.0.0",
+    "angular-slug": "0.0.4",
     "gauge": "^3.0.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
