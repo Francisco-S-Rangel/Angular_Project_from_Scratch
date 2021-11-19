@@ -1,0 +1,59 @@
+.game {
+
+    &-tabs {
+      background-color: rgb(220 220 220 / 61%);
+      color: #fff;
+      text-align: left;
+      padding: 10px;
+  
+      &-par {
+        padding: 20px 20px 0 20px;
+        margin-bottom: 0;
+      }
+  
+      &-link {
+        color: rgb(225, 0, 255);
+      }
+  
+      &-votes {
+        margin-left: 20px;
+        display: flex;
+  
+        &-count {
+          margin-left: 5px;
+        }
+      }
+
+      ::ng-deep .mat-tab-labels {
+        justify-content: center;
+        background-color: rgb(132, 217, 226);
+      }
+    }
+    &-votes {
+        &-up {
+            color: rgb(0, 255, 0);
+        }
+        &-down {
+            color: red;
+        }
+        &-count {
+            margin-left: 5px;
+            margin-right: 10px;
+            vertical-align: super;
+        }
+    }
+    &-description {
+        padding: 20px;
+    }
+    &-screenshot {
+        margin-top: 5px;
+        width: calc(50% - 10px);
+    }
+    &:nth-child(even){
+        margin-left: 10px;
+    }
+    &-trailer {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
