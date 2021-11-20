@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Project 
+
+This project was made in order to make me understand Angular better and that is why i made it while watching a video.
+
+Original Video: https://www.youtube.com/watch?v=LiOzTQAz13Q&t=3751s
+Original Project: https://github.com/bobangajicsm/ng-video-games-db
